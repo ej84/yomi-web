@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ce39ff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #000000;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.banner1 {
+  animation: fade-in 1.5s;
+}
+
+.button {
+  @apply rounded-xl shadow-lg shadow-purple-600 transition transform hover:scale-110;
+}
+
+.text-purple {
+  color: #ce39ff;
+  @apply bg-white p-2 rounded-xl;
+}
+
+/* 기본 iframe 스타일 */
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  /* 최대 크기 제한 */
+  margin: 0 auto;
+  /* 가운데 정렬 */
+}
+
+.slideshow {
+  width: 600px;
+  /* 이미지 크기 */
+  height: 620px;
+  /* 이미지 크기 */
+  margin: 0 auto;
+  position: relative;
+}
+
+@media (max-width: 844px) {
+  .slideshow {
+    width: 211px;
+    height: 232px;
+  }
+}
+
+/* 모든 이미지 기본 스타일 */
+.slideshow img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  /* 초기 상태: 투명 */
+  animation: fade-in-out 4s;
+  /* 총 3초 */
+}
+
+/* 각 이미지의 애니메이션 딜레이 설정 */
+.slideshow img:nth-child(1) {
+  animation-delay: 0s;
+  /* 첫 번째 이미지 즉시 시작 */
+}
+
+.slideshow img:nth-child(2) {
+  animation-delay: 2s;
+  /* 두 번째 이미지 1.5초 후 시작 */
+}
+
+/* 페이드 인 효과 */
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* 페이드 인/아웃 애니메이션 */
+@keyframes fade-in-out {
+
+  0%,
+  100% {
+    opacity: 0;
+    /* 처음과 끝은 투명 */
+  }
+
+  50% {
+    opacity: 1;
+    /* 중간에서는 보임 */
+  }
+}
+
+.responsive-iframe {
+  width: 100%;
+  height: 315px;
+  /* 기본 높이 */
+  border: none;
+}
+
+/* 데스크탑 (화면 크기가 768px 이상일 때) */
+@media (min-width: 768px) {
+  .responsive-iframe {
+    width: 1400px;
+    height: 400px;
+    /* 데스크탑에서 높이 증가 */
+  }
+}
+
+/* 모바일 (화면 크기가 768px 미만일 때) */
+@media (max-width: 767px) {
+  .responsive-iframe {
+    height: 200px;
+    /* 모바일에서 높이 감소 */
+  }
+}
