@@ -8,8 +8,8 @@ import Footer from "../components/Footer";
 const page = () => {
   const shorts = [
     {
-      link: "https://www.youtube.com/embed/Y3gMXelCVts",
-      title: "비상사태!(이머전시 챌린지 Korean ver)",
+      link: "https://vod.sooplive.co.kr/player/112815635",
+      title: "Be Your Cat By 요미냥",
 
     },
     {
@@ -43,7 +43,7 @@ const page = () => {
       <Navbar />
       <main className="min-h-screen p-8 relative sm:p-20 font-[family-name:var(--font-geist-sans)] flex flex-col items-center sm:items-start">
         <div className="p-4 md:p-8 mx-auto">
-          <h1 className="text-xl lg:text-3xl text-center mb-14 lg:mb-24 text-pink rounded-xl">
+          <h1 className="text-xl lg:text-3xl text-center mb-14 lg:mb-24 rounded-xl text-purple">
             요미냥 댄스 & 리액션
           </h1>
 

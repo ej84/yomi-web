@@ -8,7 +8,7 @@ import cat_nav from "../image/cat_nav.png";
 
 const Navbar = () => {
   return (
-    <nav className="flex flex-row px-3 py-2 relative md:justify-around">
+    <nav className="flex flex-row px-3 py-2 relative md:justify-around border-b-2 border-b-white">
       <Link href="/" className="transition transform hover:scale-110">
         <Image
           src={logo}
@@ -36,7 +36,7 @@ const Navbar = () => {
           요미냥 코스플레이 모음
         </p>
       </Link>
-      <Link href="/shorts2" className="text-xs md:text-lg relative left-5 sm:left-36 md:-left-14 md:top-3 lg:-left-28">
+      <Link href="/dances" className="text-xs md:text-lg relative left-5 sm:left-36 md:-left-14 md:top-3 lg:-left-28">
         <Image
           src={cat_nav}
           alt="yomi reactions"
