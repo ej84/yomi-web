@@ -8,25 +8,26 @@ import Footer from "../components/Footer";
 const page = () => {
   const shorts = [
     {
-      link: "https://vod.sooplive.co.kr/player/112815635",
-      title: "Be Your Cat By 요미냥",
+      link: "https://www.youtube.com/embed/psK4sXVYJfA",
+      title: "요미냥 Be Your Cat 리액션",
 
     },
     {
-      link: "https://www.youtube.com/embed/TQnsshOXenQ",
-      title: "새콤달콤 캐치! 티니핑송",
+      link: "https://www.youtube.com/embed/gWro6QKTA08",
+      title: "아이브 일레븐 커버 댄스",
 
     },
     {
-      link: "https://www.youtube.com/embed/y_5jyi3woQ4",
-      title: "Land of Lola Cover | Kinky Boots",
+      link: "https://www.youtube.com/embed/R9ZC8kpci4Y",
+      title: "Lovelyz(러블리즈) - Now, We (지금, 우리) By 요미냥",
 
     },
     {
-      link: "https://www.youtube.com/embed/kVFUfcvQ-o0",
-      title: "피크민송 by 해봄",
+      link: "https://www.youtube.com/embed/Z7Lv1BMl3j4",
+      title: "요미냥 꽃이 피었습니당 (꽃밭 챌린지)",
 
     },
+
   ];
 
   const [selectedLink, setSelectedLink] = useState(null);
