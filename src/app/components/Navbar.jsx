@@ -16,7 +16,7 @@ const Navbar = () => {
           className="w-14 h-14 md:w-24 md:h-24 md:mt-2 bg-white rounded-xl"
         />
       </Link>
-      <Link href="/about" className="text-xs md:text-lg relative left-5 sm:left-24 md:-left-16 md:top-3 lg:-left-28">
+      <Link href="/about" className="text-xs md:text-lg relative left-5 sm:left-32 md:-left-16 md:top-3 lg:-left-28">
         <Image
           src={cat_nav}
           alt="about yomi"
@@ -26,7 +26,7 @@ const Navbar = () => {
           요미냥은 누구인가?
         </p>
       </Link>
-      <Link href="/yomicosplay" className="text-xs md:text-lg relative left-5 sm:left-24 md:-left-[60px] md:top-3 lg:-left-28">
+      <Link href="/yomicosplay" className="text-xs md:text-lg relative left-5 sm:left-32 md:-left-[60px] md:top-3 lg:-left-28">
         <Image
           src={cat_nav}
           alt="yomi cosplay"
@@ -36,7 +36,7 @@ const Navbar = () => {
           요미냥 코스플레이 모음
         </p>
       </Link>
-      <Link href="/shorts2" className="text-xs md:text-lg relative left-5 sm:left-24 md:-left-14 md:top-3 lg:-left-28">
+      <Link href="/shorts2" className="text-xs md:text-lg relative left-5 sm:left-32 md:-left-14 md:top-3 lg:-left-28">
         <Image
           src={cat_nav}
           alt="yomi reactions"

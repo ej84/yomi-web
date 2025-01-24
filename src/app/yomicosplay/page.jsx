@@ -41,7 +41,7 @@ const page = () => {
   return (
     <>
       <Navbar />
-      <main className="flex justify-center min-h-screen p-8 gap-16 relative bottom-10 md:bottom-20 lg:bottom-16 sm:p-20 font-[family-name:var(--font-geist-sans)] items-center sm:items-start">
+      <main className="flex justify-center min-h-screen p-8 relative sm:p-20 font-[family-name:var(--font-geist-sans)] items-center sm:items-start">
         <div className="p-4 md:p-8 mx-auto">
           <div className="flex justify-center items-center px-2 rounded-lg w-full max-w-md mx-auto shadow-md text-purple">
             {/*<Image
@@ -50,7 +50,7 @@ const page = () => {
               className="w-10 h-10 sm:w-14 sm:h-14 rounded-lg relative right-9 md:right-[90px] lg:right-10"
             />*/}
             <h1 className="text-xl lg:text-3xl">
-              요미냥의 댄스 리액션 모음
+              요미냥 베스트 코스프레 모음
             </h1>
           </div>
 
