@@ -12,23 +12,6 @@ import yomitube from "./image/button3.png";
 import dearyomi from "./image/button4.png";
 
 export default function Home() {
-  const [isPlaying, setIsPlaying] = useState(false); // 재생 상태 관리
-  const audioRef = useRef(null); // 오디오 엘리먼트 참조
-
-  // 재생/정지 버튼 핸들러
-  const togglePlay = () => {
-    const audio = audioRef.current;
-    if (audio) {
-      if (isPlaying) {
-        audio.pause();
-      } else {
-        audio.play().catch((err) => {
-          console.error("Failed to auto play:", err);
-        });
-      }
-      setIsPlaying(!isPlaying); // 상태 반전
-    }
-  };
 
   return (
     <>
@@ -66,7 +49,7 @@ export default function Home() {
               <Link href="https://www.youtube.com/channel/UCDCVEcdl25HqQaqxLd-f7sg">
                 <Image src={yomitube} alt="button" className="button" />
               </Link>
-              <Link href="/">
+              <Link href="/dearyomi">
                 <Image src={dearyomi} alt="button" className="button" />
               </Link>
             </div>
