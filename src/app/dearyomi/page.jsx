@@ -4,7 +4,7 @@ import Image from "next/image";
 import { FaPlay, FaPause } from "react-icons/fa";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import profile from "../image/yomi_profile.jpg"
+import dearyomi from "../image/dearyomi.jpeg";
 
 
 const page = () => {
@@ -33,7 +33,7 @@ const page = () => {
                 <div className="flex justify-center">
 
                     <Image
-                        src={profile}
+                        src={dearyomi}
                         alt="profile"
                         className="md:w-1/3 rounded-xl"
                     />
