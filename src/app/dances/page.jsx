@@ -2,7 +2,6 @@
 
 import React, { useState } from "react";
 import Navbar from "../components/Navbar";
-import Image from "next/image";
 import Footer from "../components/Footer";
 
 const page = () => {
@@ -12,19 +11,10 @@ const page = () => {
       title: "요미냥 Be Your Cat 리액션",
 
     },
-    {
-      link: "https://www.youtube.com/embed/gWro6QKTA08",
-      title: "아이브 일레븐 커버 댄스",
 
-    },
     {
       link: "https://www.youtube.com/embed/R9ZC8kpci4Y",
       title: "Lovelyz(러블리즈) - Now, We (지금, 우리) By 요미냥",
-
-    },
-    {
-      link: "https://www.youtube.com/embed/Z7Lv1BMl3j4",
-      title: "요미냥 꽃이 피었습니당 (꽃밭 챌린지)",
 
     },
 

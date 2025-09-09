@@ -1,14 +1,11 @@
 "use client";
-import { useRef, useState } from "react";
 import Image from "next/image";
-import { FaPlay, FaPause } from "react-icons/fa";
 import Navbar from "./components/Navbar";
 import Link from "next/link";
 import Footer from "./components/Footer";
 import top_banner from "./image/top_banner.png";
 import yomicos from "./image/button1.png";
-import choigane from "./image/button2.png";
-import yomitube from "./image/button3.png";
+//import yomitube from "./image/button3.png";
 import dearyomi from "./image/button4.png";
 
 export default function Home() {
@@ -43,12 +40,9 @@ export default function Home() {
               <Link href="/yomicosplay">
                 <Image src={yomicos} alt="button" className="button" />
               </Link>
-              <Link href="https://www.youtube.com/@Choi_Family17">
-                <Image src={choigane} alt="button" className="button" />
-              </Link>
-              <Link href="https://www.youtube.com/channel/UCDCVEcdl25HqQaqxLd-f7sg">
+              {/*<Link href="https://www.youtube.com/channel/UCDCVEcdl25HqQaqxLd-f7sg">
                 <Image src={yomitube} alt="button" className="button" />
-              </Link>
+              </Link>*/}
               <Link href="/dearyomi">
                 <Image src={dearyomi} alt="button" className="button" />
               </Link>

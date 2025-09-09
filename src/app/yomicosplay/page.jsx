@@ -64,7 +64,7 @@ const page = () => {
     },
     {
       link: "https://www.youtube.com/embed/psff7HV9nss",
-      title: "요미냥 롤(LOL) 불멸의 전설 아리 코스프레(최가네)",
+      title: "요미냥 롤(LOL) 불멸의 전설 아리 코스프레",
       img: ari,
     },
   ];

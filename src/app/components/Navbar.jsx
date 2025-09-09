@@ -1,8 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import React from "react";
-import { FaYoutubeSquare, FaInstagramSquare } from "react-icons/fa";
-import { AiFillTikTok } from "react-icons/ai";
 import logo from "../image/yomi_logo.jpg";
 import cat_nav from "../image/cat_nav.png";
 
