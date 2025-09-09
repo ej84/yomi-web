@@ -47,7 +47,7 @@ const page = () => {
   };
 
   const shorts = [
-    {
+    /*{
       link: "https://www.youtube.com/embed/qPf8LG7De8g",
       title: "요미냥 원신 2022 여름축제 V-Log(요이미야)",
       img: yoimiya,
@@ -56,7 +56,7 @@ const page = () => {
       link: "https://www.youtube.com/embed/GmeQd6BgIrc",
       title: "버튜버 샤이릴리 완벽 재현 코스프레",
       img: shylily,
-    },
+    },*/
     {
       link: "https://www.youtube.com/embed/4mj4ethO_N8",
       title: "D.Va By 요미냥 in 2022",
